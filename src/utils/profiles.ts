@@ -9,12 +9,12 @@ export interface Profile {
 
 export const profiles: Profile[] = [
   {
-    name: 'Medlem 1',
+    name: 'Amgad Mohamed',
     role: 'Rolle / Tittel',
     description: 'Legg inn din beskrivelse her. Fortell litt om deg selv, dine ferdigheter og interesser.',
-    image: '',
-    github: '',
-    linkedin: '',
+    image: 'src/assets/images/Amged.jpeg',
+    github: 'https://github.com/amged002',
+    linkedin: 'https://www.linkedin.com/in/amgad-mohamed-59811525b/',
   },
   {
     name: 'Medlem 2',
