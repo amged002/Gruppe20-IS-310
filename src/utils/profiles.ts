@@ -42,7 +42,7 @@ export const profiles: Profile[] = [
     name: 'Medlem 4',
     role: 'Rolle / Tittel',
     description: 'Legg inn din beskrivelse her. Fortell litt om deg selv, dine ferdigheter og interesser.',
-    image: '',
+    image: '/Yousef.jpeg',
     github: '',
     linkedin: '',
   },
