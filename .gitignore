@@ -25,3 +25,8 @@ dist-ssr
 
 # TypeScript build files
 *.tsbuildinfo
+
+# TypeScript generated files
+src/**/*.js
+src/**/*.d.ts
+*.tsbuildinfo
