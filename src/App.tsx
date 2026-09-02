@@ -55,9 +55,15 @@ export default function App() {
                 >
                     <h2 style={{ color: '#003d7a', fontSize: '2rem', marginBottom: '1rem' }}>OM OSS</h2>
                     <p>
-                        Vi er en gruppe på 6 studenter som studerer Bachelor IT og informasjonssystemer på UiA.
-                        Gruppen vår samarbeider godt og har erfaringer fra ulike prosjekter gjennom studiet.
-                        Vi er klare for bacheloroppgaven og søker etter spennende samarbeid med bedrifter!
+                        Vi er en gruppe på 6 studenter som studerer Bachelor IT og informasjonssystemer ved UiA.
+                        Gjennom studiet har vi fått erfaring med ulike typer IT-prosjekter og har utviklet gode ferdigheter innen samarbeid,
+                        problemløsning og prosjektarbeid. Vi ønsker å bruke denne erfaringen videre i et bachelorprosjekt hvor vi kan skape en løsning med praktisk verdi.
+                    </p>
+
+                    <p>
+                        Gruppen har erfaring fra prosjekter i samarbeid med blant annet Kartverket og Luftambulansen,
+                        i tillegg til praksiserfaring fra Kongsberg Gruppen. Denne kombinasjonen har gitt oss innblikk i hvordan IT brukes i ulike bransjer og organisasjoner.
+                        Vi er åpne for ulike typer prosjekter og ønsker et samarbeid med en bedrift hvor vi kan lære, utfordre oss selv og samtidig bidra med våre tekniske ferdigheter.
                     </p>
                 </div>
 
