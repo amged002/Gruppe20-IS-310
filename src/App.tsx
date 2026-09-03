@@ -62,7 +62,7 @@ export default function App() {
 
                     <p>
                         Gruppen har erfaring fra prosjekter i samarbeid med blant annet Kartverket og Luftambulansen,
-                        i tillegg til praksiserfaring fra Kongsberg Gruppen. Denne kombinasjonen har gitt oss innblikk i hvordan IT brukes i ulike bransjer og organisasjoner.
+                        i tillegg til praksiserfaring fra Kongsberg Maritime. Denne kombinasjonen har gitt oss innblikk i hvordan IT brukes i ulike bransjer og organisasjoner.
                         Vi er åpne for ulike typer prosjekter og ønsker et samarbeid med en bedrift hvor vi kan lære, utfordre oss selv og samtidig bidra med våre tekniske ferdigheter.
                     </p>
                 </div>
@@ -245,8 +245,8 @@ export default function App() {
                         }}
                     >
                         <div>
-                            <p style={{ margin: '0.5rem 0' }}>📧 E-post: gruppe20@example.com</p>
-                            <p style={{ margin: '0.5rem 0' }}>📱 Telefon: +47 XXX XX XXX</p>
+                            <p style={{ margin: '0.5rem 0' }}>📧 E-post: stormkh@uia.no</p>
+                            <p style={{ margin: '0.5rem 0' }}>📱 Telefon: +47 974 14 614</p>
                         </div>
                     </div>
                     <p
