@@ -171,7 +171,8 @@ export default function App() {
                                 </p>
 
                                 {/* Description */}
-                                <p
+                                
+                                <div
                                     style={{
                                         fontSize: '0.95rem',
                                         color: '#555',
@@ -180,8 +181,12 @@ export default function App() {
                                         minHeight: '60px',
                                     }}
                                 >
-                                    {profile.description}
-                                </p>
+                                    {profile.description.split('\n\n').map((paragraph, index) => (
+                                        <p key={index} style={{ marginBottom: '1rem' }}>
+                                            {paragraph}
+                                        </p>
+                                    ))}
+                                </div>
 
                                 {/* Social Icons */}
                                 <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
