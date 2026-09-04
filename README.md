@@ -23,20 +23,20 @@ https://gruppe20-is-310.vercel.app
 Følg stegene under for å kjøre prosjektet lokalt.
 
 ### 1. Klon repositoryet
-```bash
+
 git clone https://github.com/amged002/Gruppe20-IS-310.git
 cd Gruppe20-IS-310
 
 ### 2. Installer avhengigheter
-```bash
+
 npm install
 
 ### 3. Bygge prosjektet
-```bash
+
 npm run build
 
 ### 4. Start utviklingsserveren
-```bash
+
 npm run dev
 
 Nettsiden vil nå være tilgjengelig på:
