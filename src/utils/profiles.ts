@@ -11,11 +11,9 @@ export const profiles: Profile[] = [
   {
     name: 'Amgad Mohamed',
     role: 'Fullstack-utvikler',
-    description:'Jeg heter Amgad Mohamed og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i programmering, systemutvikling og hvordan teknologi kan brukes til å utvikle praktiske og brukervennlige løsninger.\n' +
-        '\n' +
-        'Gjennom studiet har jeg fått erfaring med programmering, webutvikling, databaser og utvikling av informasjonssystemer. Jeg liker å lære nye teknologier og trives godt med problemløsning og samarbeid med andre.\n' +
-        '\n' +
-        'Jeg har også erfaring fra sikkerhet, kundeservice og praktisk arbeid. Dette har gitt meg gode ferdigheter innen kommunikasjon, ansvar og samarbeid, som jeg ønsker å ta med meg videre i IT-prosjekter.',
+    description:
+        'Jeg heter Amgad Mohamed og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i programmering, systemutvikling og hvordan teknologi kan brukes til å utvikle praktiske og brukervennlige løsninger. Gjennom studiet har jeg fått erfaring med blant annet webutvikling, databaser og utvikling av informasjonssystemer, og jeg trives godt med problemløsning og praktisk prosjektarbeid.\n\n' +
+        'Jeg har også erfaring fra prosjektarbeid, blant annet gjennom samarbeid med Kartverket, samt fra sikkerhet, kundeservice og praktisk arbeid. Dette har utviklet mine ferdigheter innen ansvar, kommunikasjon og samarbeid. I et bachelorprosjekt ønsker jeg å bidra med mine tekniske ferdigheter, lære nye teknologier og være med på å utvikle en løsning som skaper reell verdi for en virksomhet.', 
     image: '/Amged.jpeg',
     github: 'https://github.com/amged002',
     linkedin: 'https://www.linkedin.com/in/amgad-mohamed-59811525b/',

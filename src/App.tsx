@@ -12,6 +12,7 @@ export default function App() {
                     position: 'sticky',
                     top: 0,
                     width: '100%',
+                    boxSizing: 'border-box',
                     background: '#ffffff',
                     color: '#003d7a',
                     padding: '1.5rem 2rem',
@@ -28,6 +29,15 @@ export default function App() {
             >
                 <span>GRUPPE 20</span>
                 <nav style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem' }}>
+                    <a href="#about" style={{ color: '#003d7a', textDecoration: 'none' }}>
+                        Om oss
+                    </a>
+                    <a href="#looking-for" style={{ color: '#003d7a', textDecoration: 'none' }}>
+                        Hva ser vi etter?
+                    </a>
+                    <a href="/prosjekter" style={{ color: '#003d7a', textDecoration: 'none' }}>
+                        Prosjekter
+                    </a>
                     <a href="#members" style={{ color: '#003d7a', textDecoration: 'none' }}>
                         Medlemmer
                     </a>
@@ -41,29 +51,62 @@ export default function App() {
             <div style={{ marginTop: '2rem' }}>
                 {/* Om oss */}
                 <div
+                    id="about"
+                    style={{
+                        maxWidth: '900px',
+                        margin: '0 auto 0 auto',
+                        textAlign: 'center',
+                        background: '#ffffffff',
+                        padding: '3rem 2rem 0 2rem',
+                        borderRadius: '12px',
+                        color: '#2f2f2f',
+                        fontSize: '1.1rem',
+                        lineHeight: '1.8',
+                        scrollMarginTop: '120px',
+                    }}
+                >
+                    <h2 style={{ color: '#003d7a', fontSize: '2rem', marginBottom: '1rem' }}>OM OSS</h2>
+                    <p>
+                        Vi er en gruppe på seks studenter som studerer Bachelor i IT og informasjonssystemer ved UiA. Gjennom studiet har vi fått erfaring med ulike IT-prosjekter og utviklet ferdigheter innen samarbeid, problemløsning og prosjektarbeid. Vi ønsker å bruke denne erfaringen videre i et bachelorprosjekt hvor vi kan utvikle en løsning som skaper praktisk verdi for en virksomhet.
+                    </p>
+
+                    <p>
+                        Gruppen har erfaring fra prosjekter i samarbeid med blant annet Kartverket og Luftambulansen, samt praksiserfaring fra Kongsberg Maritime. Dette har gitt oss innblikk i hvordan IT kan brukes i ulike bransjer og til ulike typer utfordringer. Vi er åpne for ulike prosjektområder og ønsker å samarbeide med en bedrift hvor vi kan bruke våre tekniske ferdigheter, lære nye ting og utvikle en løsning med reell nytte.
+                    </p>
+                </div>
+
+                {/* Hva ser vi etter? */}
+                <div
+                    id="looking-for"
                     style={{
                         maxWidth: '900px',
                         margin: '0 auto 3rem auto',
                         textAlign: 'center',
                         background: '#ffffffff',
-                        padding: '3rem 2rem',
+                        padding: '0 2rem 3rem 2rem',
                         borderRadius: '12px',
                         color: '#2f2f2f',
                         fontSize: '1.1rem',
                         lineHeight: '1.8',
+                        scrollMarginTop: '120px',
                     }}
                 >
-                    <h2 style={{ color: '#003d7a', fontSize: '2rem', marginBottom: '1rem' }}>OM OSS</h2>
+                    <h2 style={{ color: '#003d7a', fontSize: '2rem', marginBottom: '0 0 1rem 0' }}>
+                        HVA SER VI ETTER?
+                    </h2>
+
                     <p>
-                        Vi er en gruppe på 6 studenter som studerer Bachelor IT og informasjonssystemer ved UiA.
-                        Gjennom studiet har vi fått erfaring med ulike typer IT-prosjekter og har utviklet gode ferdigheter innen samarbeid,
-                        problemløsning og prosjektarbeid. Vi ønsker å bruke denne erfaringen videre i et bachelorprosjekt hvor vi kan skape en løsning med praktisk verdi.
+                        Vi ser etter en bedrift eller organisasjon med en konkret utfordring som kan
+                        utforskes og løses ved hjelp av teknologi. Vi er åpne for ulike bransjer og
+                        prosjektområder, og ønsker å bruke kompetansen vår innen blant annet
+                        systemutvikling, webutvikling, kunstig intelligens, cybersikkerhet og digitalisering.
                     </p>
 
                     <p>
-                        Gruppen har erfaring fra prosjekter i samarbeid med blant annet Kartverket og Luftambulansen,
-                        i tillegg til praksiserfaring fra Kongsberg Maritime. Denne kombinasjonen har gitt oss innblikk i hvordan IT brukes i ulike bransjer og organisasjoner.
-                        Vi er åpne for ulike typer prosjekter og ønsker et samarbeid med en bedrift hvor vi kan lære, utfordre oss selv og samtidig bidra med våre tekniske ferdigheter.
+                        Vi ønsker å jobbe med et reelt problem hvor vi kan utvikle en løsning med
+                        praktisk verdi for virksomheten. Samtidig ser vi etter et samarbeid som gir oss
+                        mulighet til å lære nye teknologier, få erfaring fra arbeidslivet og utvikle oss
+                        videre som IT-studenter.
                     </p>
                 </div>
 
@@ -231,8 +274,13 @@ export default function App() {
                             textAlign: 'center',
                         }}
                     >
-                        Kontakt oss
+                        KONTAKT OSS
                     </h2>
+
+                    <p style={{ textAlign: 'center', color: '#555', marginBottom: '2rem' }}>
+                        Interessert i å samarbeide med Gruppe 20 om et bachelorprosjekt?
+                        Ta gjerne kontakt med oss for en prat.
+                    </p>
                     <div
                         style={{
                             display: 'flex',
@@ -245,8 +293,15 @@ export default function App() {
                         }}
                     >
                         <div>
-                            <p style={{ margin: '0.5rem 0' }}>📧 E-post: stormkh@uia.no</p>
-                            <p style={{ margin: '0.5rem 0' }}>📱 Telefon: +47 974 14 614</p>
+                            <p style={{ margin: '0.5rem 0' }}>
+                                Kontaktperson: Storm Haukom
+                            </p>
+                            <p style={{ margin: '0.5rem 0' }}>
+                                📧 E-post: stormkh@uia.no
+                            </p>
+                            <p style={{ margin: '0.5rem 0' }}>
+                                📱 Telefon: +47 974 14 614
+                            </p>
                         </div>
                     </div>
                     <p
