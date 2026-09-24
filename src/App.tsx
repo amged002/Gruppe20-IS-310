@@ -46,6 +46,26 @@ export default function App() {
                     </a>
                 </nav>
             </div>
+            
+            {/* Gruppebilde */}
+            <div
+                style={{
+                    width: '100%',
+                    overflow: 'hidden',
+                    display: 'flex',
+                    justifyContent: 'center',
+                }}
+            >
+                <img
+                    src="/gruppe20.jpeg"
+                    alt="Gruppe 20"
+                    style={{
+                        width: '90%',
+                        height: 'auto',
+                        display: 'block',
+                    }}
+                />
+            </div>
 
             {/* Content */}
             <div style={{ marginTop: '2rem' }}>

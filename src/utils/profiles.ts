@@ -21,11 +21,9 @@ export const profiles: Profile[] = [
   {
     name: 'Storm Haukom',
     role: 'Backend-utvikler',
-    description: 'Jeg er 22 år gammel, født og oppvokst i Kongsberg. Jeg studerer IT og informasjonssystemer ved UiA, samtidig som jeg jobber deltid som Technical Assistant hos Kongsberg Maritime.\n' +
-        '\n' +
-        'Hos Kongsberg Maritime jobber jeg i avdelingen for Dynamic Positioning (DP), hvor jeg blant annet arbeider med oppsett og konfigurering av datamaskiner, feilsøking, testing og problemløsing. Gjennom jobben får jeg praktisk erfaring med IT i et teknisk og maritimt miljø, og innblikk i hvordan komplekse teknologiske systemer utvikles, testes og vedlikeholdes.\n' +
-        '\n' +
-        'På fritiden har jeg stor interesse for kunstig intelligens, gaming, musikk og teknologi generelt. Jeg er spesielt interessert i hvordan ny teknologi kan brukes til å løse problemer, effektivisere arbeidsprosesser og skape nye muligheter.',
+    description:
+        'Jeg heter Storm Haukom og er 22 år gammel. Jeg er født og oppvokst i Kongsberg og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i teknologi, kunstig intelligens, systemutvikling og hvordan digitale løsninger kan brukes til å løse problemer og effektivisere arbeidsprosesser.\n\n' +
+        'Ved siden av studiene jobber jeg deltid som Technical Assistant hos Kongsberg Maritime i avdelingen Dynamic Positioning (DP). Her arbeider jeg blant annet med oppsett og konfigurering av datamaskiner, feilsøking, testing og problemløsing. Gjennom arbeidet får jeg praktisk erfaring med IT i et teknisk og maritimt miljø, og i et bachelorprosjekt ønsker jeg å bidra med IT-erfaringen min, finne gode løsninger på ulike utfordringer og samtidig utvikle meg videre gjennom praktisk arbeid.',
     image: '/Storm.jpeg',
     github: 'https://github.com/Storm300',
     linkedin: 'https://www.linkedin.com/in/storm-kvitting-haukom-3846b0335/',
@@ -73,3 +71,4 @@ export const profiles: Profile[] = [
     linkedin: 'https://www.linkedin.com/in/filip-aulid-5a78ab327',
   },
 ];
+

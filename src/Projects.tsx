@@ -27,25 +27,16 @@ export default function Projects() {
                     GRUPPE 20
                 </span>
 
-                <nav style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem' }}>
-                    <a href="/#about" style={{ color: '#003d7a', textDecoration: 'none' }}>
-                        Om oss
-                    </a>
-
-                    <a href="/#looking-for" style={{ color: '#003d7a', textDecoration: 'none' }}>
-                        Hva ser vi etter?
-                    </a>
-
-                    <a href="/prosjekter" style={{ color: '#003d7a', textDecoration: 'none' }}>
-                        Prosjekter
-                    </a>
-
-                    <a href="/#members" style={{ color: '#003d7a', textDecoration: 'none' }}>
-                        Medlemmer
-                    </a>
-
-                    <a href="/#contact" style={{ color: '#003d7a', textDecoration: 'none' }}>
-                        Kontakt oss
+                <nav style={{ display: 'flex', gap: '2rem', fontSize: '1.1rem' }}>
+                    <a
+                        href="/"
+                        style={{
+                            color: '#003d7a',
+                            textDecoration: 'none',
+                            fontWeight: '500',
+                        }}
+                    >
+                        Hjem
                     </a>
                 </nav>
             </header>
