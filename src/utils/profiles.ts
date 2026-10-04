@@ -53,9 +53,9 @@ export const profiles: Profile[] = [
   {
     name: 'Marius R. Kristiansen',
     role: 'Frontend-utvikler',
-    description: 'Jeg heter Marius Kristiansen og er 21 år gammel. Jeg er født i Danmark og oppvokst i Haugesund. Jeg studerer IT og informasjonssystemer ved UiA og er spesielt interessert i teknologi og kunstig intelligens. Ved siden av studiene jobber jeg på Pizzabakeren Frakkagjerd i feriene. På fritiden liker jeg å spille og se fotball, trene, være sosial og game.\n' +
-        '\n' +
-        'I gruppearbeid liker jeg å bidra der det trengs, samtidig som jeg synes det er viktig at alle får komme med sine ideer. Jeg håper vi kan lage et prosjekt som både er interessant å jobbe med og som faktisk kan brukes til noe.',
+    description:
+        'Jeg heter Marius Kristiansen og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i UX, design og kunstig intelligens, og derfor jobber jeg med frontend-utvikling i gruppen min. Gjennom studiet har jeg også fått erfaring med blant annet datasikkerhet, databaser og webutvikling, men trives best med å jobbe med hvordan vi kan forbedre brukeropplevelsen.\n\n' +
+        'I tillegg har jeg erfaring fra prosjektarbeid, blant annet gjennom samarbeid med Kartverket. Gjennom tidligere arbeid har jeg fått mye erfaring med kundeservice, samarbeid og kommunikasjon. Jeg synes dette er viktig for å kunne fungere godt i et team og ha et godt samarbeid med bedriften vi jobber med. I et bachelorprosjekt ønsker jeg å bidra med kreative ideer, lære nye ting og prøve meg frem, samtidig som jeg ønsker å være med på å lage en løsning som bedriften kan ha nytte av.',
     image: '/Marius.jpeg',
     github: 'https://github.com/Markri2101',
     linkedin: 'https://www.linkedin.com/in/marius-kristiansen-5b5a83433/', 

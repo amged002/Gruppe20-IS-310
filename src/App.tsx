@@ -67,6 +67,33 @@ export default function App() {
                 />
             </div>
 
+            {/* Promovideo */}
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    margin: '2rem 0',
+                }}
+            >
+                <a
+                    href="https://www.youtube.com/watch?v=QSW2mtZ49Xo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                        display: 'inline-block',
+                        padding: '0.9rem 1.8rem',
+                        backgroundColor: '#0052cc',
+                        color: '#ffffff',
+                        textDecoration: 'none',
+                        borderRadius: '8px',
+                        fontWeight: '600',
+                        fontSize: '1rem',
+                    }}
+                >
+                    Se vår promovideo her!
+                </a>
+            </div>
+
             {/* Content */}
             <div style={{ marginTop: '2rem' }}>
                 {/* Om oss */}
