@@ -31,11 +31,9 @@ export const profiles: Profile[] = [
   {
     name: 'Joachim Stephen Benning',
     role: 'Backend-utvikler',
-    description: 'Jeg er tredjeårsstudent på IT og informasjonssystemer ved UiA og er spesielt interessert i kunstig intelligens og cybersikkerhet. Jeg synes det er interessant å se hvordan teknologi og regelverk påvirker norske virksomheter, særlig gjennom NIS2.\n' +
-        '\n' +
-        'Etter bacheloren planlegger jeg å ta en master i cybersikkerhetsledelse. Ved siden av studiene jobber jeg som flyarbeider på Kjevik, noe som har gitt meg erfaring fra arbeidslivet og ansvar i en travel arbeidshverdag.\n' +
-        '\n' +
-        'I prosjektgruppen ønsker jeg å bidra med interesse og kunnskap innen IT, spesielt innen cybersikkerhet og teknologi, samtidig som jeg ønsker å utvikle meg videre gjennom praktisk prosjektarbeid.',
+    description:
+        'Jeg heter Joachim og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i kunstig intelligens, cybersikkerhet og hvordan teknologi og regelverk påvirker norske virksomheter. Jeg synes blant annet NIS2 er interessant, og hvordan virksomheter må tilpasse seg nye krav innen digital sikkerhet.\n\n' +
+        'Etter bacheloren planlegger jeg å ta en master i cybersikkerhetsledelse. Ved siden av studiene jobber jeg som flyarbeider på Kjevik, noe som har gitt meg erfaring fra arbeidslivet og lært meg mye om ansvar, samarbeid og det å håndtere en travel arbeidshverdag. I et bachelorprosjekt ønsker jeg å bidra med interesse og kunnskap innen IT, spesielt innen cybersikkerhet og teknologi. Samtidig ønsker jeg å lære nye ting, få mer praktisk erfaring og bidra til å utvikle en løsning som kan være nyttig for bedriften vi samarbeider med.',
     image: '/Joachim.jpeg',
     github: 'https://github.com/JBenning03',
     linkedin: 'https://www.linkedin.com/in/joachim-benning-197063312/',
@@ -63,9 +61,9 @@ export const profiles: Profile[] = [
   {
     name: 'Filip Aulid',
     role: 'Frontend-utvikler',
-    description: 'Jeg heter Filip Nicolai Aulid og er 22 år gammel fra Asker. Jeg studerer IT og informasjonssystemer ved Universitetet i Agder. Gjennom studiet har jeg fått erfaring med blant annet programmering, databaser, webutvikling og ulike IT-prosjekter. Jeg synes det er interessant å jobbe med problemløsning og se hvordan en idé kan utvikles til en fungerende løsning. Jeg liker også å lære gjennom praktisk arbeid og prøve meg frem med nye teknologier.\n' +
-        '\n' +
-        'Jeg har tidligere jobbet innen salg og distribusjon, noe som har gitt meg erfaring med samarbeid, ansvar og strukturert arbeid. I prosjektgruppen ønsker jeg å bidra med utvikling, idearbeid, skriving og kvalitetssikring, samtidig som jeg ønsker å videreutvikle de tekniske ferdighetene mine.',
+    description:
+        'Jeg heter Filip Nicolai Aulid og studerer IT og informasjonssystemer ved Universitetet i Agder. Jeg er spesielt interessert i problemløsning og hvordan teknologi kan brukes til å utvikle gode og brukervennlige løsninger. Gjennom studiet har jeg fått erfaring med blant annet programmering, databaser og utvikling av informasjonssystemer, og jeg trives godt med praktisk prosjektarbeid og å utvikle ideer til fungerende løsninger.\n\n' +
+        'Jeg har også erfaring fra arbeidslivet og førstegangstjeneste, noe som har gitt meg god erfaring med ansvar, samarbeid, struktur og kommunikasjon. I et bachelorprosjekt ønsker jeg særlig å bidra med utvikling, frontend, testing og kvalitetssikring, samtidig som jeg ønsker å lære nye teknologier og være med på å utvikle en løsning som møter oppdragsgivers behov.',
     image: '/Filip.jpeg',
     github: 'https://github.com/Nico-au03',
     linkedin: 'https://www.linkedin.com/in/filip-aulid-5a78ab327',
