@@ -341,14 +341,30 @@ export default function App() {
                     >
                         <div>
                             <p style={{ margin: '0.5rem 0' }}>
-                                Kontaktperson: Storm Haukom
+                                📧 E-post:{' '}
+                                <a
+                                    href="mailto:stormkh@uia.no"
+                                    style={{
+                                        color: '#003d7a',
+                                        textDecoration: 'none',
+                                    }}
+                                >
+                                    stormkh@uia.no
+                                </a>
                             </p>
+
                             <p style={{ margin: '0.5rem 0' }}>
-                                📧 E-post: stormkh@uia.no
-                            </p>
-                            <p style={{ margin: '0.5rem 0' }}>
-                                📱 Telefon: +47 974 14 614
-                            </p>
+                                📱 Telefon:{' '}
+                                <a
+                                    href="tel:+4797414614"
+                                    style={{
+                                        color: '#003d7a',
+                                        textDecoration: 'none',
+                                    }}
+                                >
+                                    +47 974 14 614
+                                </a>
+                            </p>   
                         </div>
                     </div>
                     <p

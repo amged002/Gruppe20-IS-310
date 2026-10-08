@@ -84,12 +84,19 @@ export default function Projects() {
                             alignItems: 'center',
                             justifyContent: 'center',
                             flexShrink: 0,
-                            color: '#003d7a',
-                            fontWeight: '700',
-                            textAlign: 'center',
+                            overflow: 'hidden',
+                            backgroundColor: '#fff',
                         }}
                     >
-                        Kartverket<br />&<br />Luftambulansen
+                        <img
+                            src="/kartverket-logo.jpeg"
+                            alt="Kartverket logo"
+                            style={{
+                                width: '85%',
+                                height: '85%',
+                                objectFit: 'contain',
+                            }}
+                        />
                     </div>
 
                     <div>
@@ -118,22 +125,47 @@ export default function Projects() {
                             i samarbeid med eksterne aktører.
                         </p>
 
-                        <a
-                            href="https://github.com/amged002/NRLAPPfinal"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <div
                             style={{
-                                display: 'inline-block',
-                                padding: '0.8rem 1.5rem',
-                                backgroundColor: '#0052cc',
-                                color: '#ffffff',
-                                textDecoration: 'none',
-                                borderRadius: '8px',
-                                fontWeight: '600',
+                                display: 'flex',
+                                gap: '1rem',
+                                flexWrap: 'wrap',
                             }}
                         >
-                            Se prosjektet
-                        </a>
+                            <a
+                                href="https://github.com/amged002/NRLAPPfinal"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'inline-block',
+                                    padding: '0.8rem 1.5rem',
+                                    backgroundColor: '#0052cc',
+                                    color: '#ffffff',
+                                    textDecoration: 'none',
+                                    borderRadius: '8px',
+                                    fontWeight: '600',
+                                }}
+                            >
+                                Se prosjektet
+                            </a>
+
+                            <a
+                                href="https://youtu.be/mtuB0BZXPU8?si=bp8NMB8CQ9Kdog5N"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'inline-block',
+                                    padding: '0.8rem 1.5rem',
+                                    backgroundColor: '#0052cc',
+                                    color: '#ffffff',
+                                    textDecoration: 'none',
+                                    borderRadius: '8px',
+                                    fontWeight: '600',
+                                }}
+                            >
+                                YouTube demo
+                            </a>
+                        </div>
                     </div>
                 </section>
             </main>

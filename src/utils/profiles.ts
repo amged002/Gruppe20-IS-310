@@ -42,8 +42,8 @@ export const profiles: Profile[] = [
     name: 'Yousef Kdida',
     role: 'Frontend-utvikler',
     description:
-        'Jeg er en målrettet og ambisiøs IT-student som legger mye tid og innsats i studiene for å utvikle meg faglig og bygge solid kompetanse innen IT. Jeg er lærevillig og liker å utfordre meg selv til å stadig bli bedre.\n\n' +
-        'På fritiden har jeg en aktiv og sosial livsstil, og bruker mye tid med familie og venner. Styrketrening er også en stor del av hverdagen min og har lært meg disiplin, struktur og viktigheten av å være konsekvent for å nå målene mine. Jeg liker å ha klare mål og jobbe målrettet for å nå dem. Målet mitt er å få god erfaring innen IT, ta ansvar og bygge en sterk karriere hvor jeg kan bruke kunnskapen min til å skape verdi.',
+        'Jeg heter Yousef Kdida og studerer IT og informasjonssystemer ved Universitetet i Agder. Gjennom studiet har jeg fått erfaring med blant annet programmering, webutvikling, databaser. Jeg har også fått bedre forståelse for hvordan teknologi kan brukes til å løse praktiske problemer og utvikle brukervennlige løsninger. Gjennom ulike fag og prosjektarbeid har jeg utviklet ferdighetene mine innen problemløsning, samarbeid og strukturert arbeid. Jeg liker spesielt godt oppgaver der jeg får bruke det jeg har lært og finne gode løsninger på konkrete utfordringer.\n\n' +
+        'På fritiden er jeg interessert i trening og personlig utvikling. I gruppen ønsker jeg å være engasjert, bidra med kreative ideer, hjelpe til der det trengs og ta ansvar for ulike oppgaver. Gjennom bachelorprosjektet håper jeg å utvikle meg videre, lære nye teknologier og bidra til å lage en løsning som skaper verdi.',
     image: '/Yousef.jpeg',
     github: 'https://github.com/Youcefkdida',
     linkedin: 'https://www.linkedin.com/in/youcef-kdida-b905b1413/',
